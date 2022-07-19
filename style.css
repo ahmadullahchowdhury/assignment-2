@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lobster&family=Manrope:wght@200&family=Montserrat:wght@700&family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-container{
+    background-color: #161616;
+    width: 1312px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    line-height: 80px;
+}
+.banner-text{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+.banner-img img{
+    width: 581px;
+    height: 613px;
+    position: relative;
+    top:23px;
+    /* left:10px; */
+    padding-right: 80px;
+}
+.fa-arrow-right{
+    color: aliceblue;
+} 
+.title-others{
+    margin-left: 108px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+} 
+
+.watch-now-button{
+    padding: 16px 25px;
+    background-color: #DD0000;  
+    border-radius: 5px;
+    font-family: 'HelveticaNeue';
+    width: 150px;
+}
+.watch-now-button-text{
+    font-family: 'HelveticaNeue';
+    text-decoration: none;
+    color: white;
+    padding-right: 10px; 
+}
