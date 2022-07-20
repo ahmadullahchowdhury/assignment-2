@@ -261,6 +261,11 @@ footer h2{
 }
 
 @media screen and (max-width:586px) {
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
     .banner-container{
         margin-top: 50px;
@@ -277,7 +282,7 @@ footer h2{
         height:244px;
         position: relative;
         top: 8px;
-        left: 60px;
+        left: 50px;
         
         
         
@@ -301,6 +306,9 @@ footer h2{
         padding-left: 50px;
         text-overflow: ellipsis;
         text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        height: 30px;
     }
 
     .title-others{
@@ -336,7 +344,7 @@ footer h2{
     .blog-container{
         /* margin-top: 130px;
         margin-bottom: 100px; */
-        width: 1312px;
+        width: 370px;
         display:grid;
         grid-template-columns: repeat(1, 1fr);
         column-gap: 20px;
@@ -362,7 +370,7 @@ footer h2{
         row-gap: 20px;
     }
     .blog{
-        border: 4.5px solid rgb(231, 231, 231);
+        border: 2.5px solid rgb(231, 231, 231);
         border-radius: 10px ;
         width: 311px;
     }
