@@ -259,3 +259,161 @@ footer h2{
     /* margin-top: 30px; */
     /* margin-bottom: 30px; */
 }
+
+@media screen and (max-width:586px) {
+    
+    .banner-container{
+        margin-top: 50px;
+        background-color: #161616;
+        width: 335px;
+        /* height: 472px; */
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-img img{
+        width: 233px;
+        height:244px;
+        position: relative;
+        top: 8px;
+        left: 60px;
+        
+        
+        
+    }
+
+    h1{
+        color: white;
+        font-size:32px;
+        font-weight: bold;
+        line-height: 50px;
+        padding-bottom: 10px;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .banner-text{
+        color: white;
+        font-size: 16px;
+        /* margin-top: 20px;
+        margin-bottom: 30px; */
+        padding-right: 50px;
+        padding-left: 50px;
+        text-overflow: ellipsis;
+        text-align: center;
+    }
+
+    .title-others{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    } 
+    
+   
+
+    .watch-now-button{
+        padding: 16px 25px;
+        background-color: #DD0000;  
+        border-radius: 5px;
+        font-family: 'HelveticaNeue';
+        width: 150px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .watch-now-button-text{
+        font-family: 'HelveticaNeue';
+        text-decoration: none;
+        color: white;
+        padding-right: 10px; 
+        text-align: center;
+    }
+
+
+
+    /* blog mobile css */
+    .blog-container{
+        /* margin-top: 130px;
+        margin-bottom: 100px; */
+        width: 1312px;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        place-items: center;
+    }
+
+    .blog-side-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background-color: #ffffff;
+
+        padding-top: 30px;
+        padding-bottom: 30px;  
+        border-radius: 10px;
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .blog{
+        border: 4.5px solid rgb(231, 231, 231);
+        border-radius: 10px ;
+        width: 311px;
+    }
+    .trans-text{
+        font-size: 20px;
+        border: 1px solid;
+        width:40%;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom:10px;
+    }
+
+
+
+    /* footer */
+
+    .footer-menu{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .footer-menu p{
+        /* padding-bottom: 30px; */
+        /* text-align: center; */
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+    footer{
+        background-color: black;
+        padding:0px;
+    }
+    .icon{
+        padding-left: 0px;
+        padding-right:30px ;
+        padding-bottom: 50px;
+    
+    }
+    footer h2{
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 40px;
+    }
+    
+    
+
+
+
+
+
+}
